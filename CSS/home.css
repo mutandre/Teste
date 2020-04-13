@@ -46,15 +46,181 @@ ul {
 }
 /* formatação de corpo*/
 
-
 .main_principal{
+    display: block;
     margin: 0 auto;
     width: 800px;
-
-    
+    height: 4000px;
     position: relative;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
+
+.class_tamanho {
+    margin-top: 20px;
+    width:390px ;
+    height:450px ;
+    background-color: lightgrey;
+    position: absolute;
+     
+}
+
+.articule_link{
+text-decoration: none;
+color: black;
+}
+#Politics_M {
+
+   position: relative;
+   margin-left: 15px;
+   top: 25px; ;
+      
+}
+
+#Politics_c{
+
+    position: relative;
+    margin-left: 15px;
+    top: 25px;
+    color: grey;
+
+}
+
+#Politics_T{
+
+    position: relative;
+    margin-left: 15px;
+    top: 25px;
+
+}
+
+#span_politics{
+
+    position: absolute;
+    top: 230px;
+    margin-left: 15px;
+    color: gray;
+    font-weight: bolder;
+}
+
+
+.figure_tamanho_main{
+    width: 390px;
+    margin: 0px;
+   
+   }
+
+
+.figure_tamanho_main img{
+    width: 100%;
+    height: 50%;
+}
+.class_tamanho_um {
+    margin-top: 20px;
+    margin-left: 410px;
+    width:390px ;
+    height:450px ;
+    background-color: lightgrey;
+    position: absolute;
+    
+   
+}
+#span_economics {
+
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
+    color: gray;
+    font-weight: bolder;
+}
+#Economics_M {
+
+    position: relative;
+    margin-left: 15px;
+    top: 3px; 
+    margin-right: 15px;
+    
+       
+ }
+ 
+ #Economics_c{
+ 
+     position: relative;
+     margin-left: 15px;
+     top: 3px;
+     margin-right: 15px;
+     color: gray;
+ 
+ }
+ #Economics_T{
+ 
+    position: relative;
+    margin-left: 15px;
+    top: 3px;
+    margin-right: 15px;
+    
+
+}
+
+/* segunda linha da primeira coluna corpo*/
+.class_tamanho_dois {
+    margin-top:490px;
+    width:390px ;
+    height:450px ;
+    background-color:lightgrey;
+    position: absolute;
+     
+}
+
+
+
+/* Terceira linha da primeira coluna do corpo*/
+.class_tamanho_tres {
+    margin-top:960px;
+    width:390px ;
+    height:450px ;
+    background-color:lightgrey;
+    position: absolute;
+     
+}
+/* segunda linha da segunda coluna corpo*/
+.class_tamanho_quatro {
+    margin-top: 490px;
+    margin-left: 410px;
+    width:390px ;
+    height:450px ;
+    background-color: lightgrey;
+    position: absolute;
+    
+   
+}
+
+/* Terceira linha da segunda coluna corpo*/
+.class_tamanho_cinco {
+    margin-top: 960px;
+    margin-left: 410px;
+    width:390px ;
+    height:450px ;
+    background-color: lightgrey;
+    position: absolute;
+    
+   
+}
+
+/* Formatação do botão da principal*/
+
+#id_button {
+
+    position: absolute;
+    margin-top: 1500px;
+    
+    width:800px;  
+    height:35px;
+}
+
+
+
+/* formatação de asides*/
 .Aside_Esquerda{
 
     margin: 0 auto;
