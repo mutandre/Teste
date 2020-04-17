@@ -5,11 +5,11 @@
 }
 /*  CSS formatação de cabeçalho*/
 ul {
-    padding: 0px !important;
+    padding: 0px ;/*!important;*/
 }
 .header_Cabecalho {  
     display: block;
-    margin: 0 auto;
+    margin-left: 280px;
     width:800px;
     height:150px; 
     position: relative;
@@ -18,7 +18,6 @@ ul {
 }
 .Nave_cabecalho ul li  {
     display: inline-block;
-   
     position: relative;
     margin-top: 115px;
     padding: 8px;
@@ -30,7 +29,7 @@ ul {
 }
 .h1_espaço{
     position: absolute; 
-   margin-top: 37px;
+    margin-top: 37px;
     margin-left: 8px;
    
 }
@@ -48,7 +47,8 @@ ul {
 
 .main_principal{
     display: block;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
+    margin-left: 280px;
     width: 800px;
     height: 4000px;
     position: relative;
@@ -229,3 +229,284 @@ color: black;
     position: relative;
 
 }
+
+/*Formatação de roda pé*/
+
+.footer_roda_pe{
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 300px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    
+
+}
+
+#Titulo_rodape{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.Nave_Home    {
+     
+    width: 100px;
+    height: 200px;
+    margin-left: 280px;
+    margin-top: -200px;
+    position: relative;
+    padding: 2px;
+   
+   
+ /* position: relative;
+   margin: 20px;*/
+    
+}
+.Nave_Home ul li  {
+
+  
+    list-style: none;
+    text-decoration: none;
+}
+
+.Nave_Home ul li a {
+
+    text-decoration: none;
+    color:black;
+
+}
+
+
+
+.Nave_About    {
+     
+    width: 200px;
+    height: 200px;
+    margin-left: 680px;
+    margin-top: -210px;
+    position: relative;
+    padding: 2px;
+   
+   
+ /* position: relative;
+   margin: 20px;*/
+    
+}
+
+.Nave_More    {
+     
+    width: 100px;
+    height: 200px;
+    margin-left: 480px;
+    margin-top: -190px;
+    position: relative;
+    padding: 2px;
+    list-style-type: none;
+   
+ /* position: relative;
+   margin: 20px;*/
+    
+}
+
+#span_footer {
+
+    font-weight: bolder;
+    
+}
+
+.Nave_ul ul li  {
+ 
+    color: grey;
+    list-style: none;
+    
+    
+}
+.Nave_ul ul li a  {
+    text-decoration: none;
+    color: grey;
+    
+}
+/*
+
+.Nave_sociais {
+   
+
+     position: relative;
+     width: 800px;
+     
+ 
+ }
+.Nave_sociais ul li  {
+
+  
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Nave_sociais ul li a {
+
+    text-decoration: none;
+    color:black;
+
+}
+*/
+/* Formatação de aside*/
+.Aside_Esquerda{
+
+    display: block;
+    margin: 0 auto;
+    margin-top: -4110px;
+    width:359px;
+    height:2500px; 
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Tamanho_figure{
+
+    width: 2px;
+    height: 2px;
+}
+
+.nav_aside_direita{
+  
+    padding: 15px;
+    margin-top: 80px;
+
+}
+
+.nav_aside_direita ul li  {
+    font-weight: bolder;
+    list-style: none;
+    padding: 6px;
+   
+    
+    }
+
+    .nav_aside_direita ul li a {
+      
+        
+        text-decoration: none;
+        color:black;
+        
+        }
+
+.div_footer{
+
+    display: flex;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.div_footer ul li {
+
+   list-style: none;
+   /*font-weight: bolder;*/
+   padding: 6px;
+}
+
+.div_footer ul li a {
+
+    text-decoration: none;
+    color: black;
+    
+}
+/*aside direita Live*/
+#span_aside{
+
+    display: flex;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: -5px;
+
+}
+
+#span_tem{
+    
+    display: flex;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-top: 20px;
+
+
+}
+
+.Aside_Direta_container{
+    display: flex;
+    margin: 0 auto;
+    margin-top: -4102px;
+    margin-left: 1130px;
+    width:300px;
+    height:800px; 
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.span_live{
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+
+}
+
+.class_aside_direita{
+
+   
+    margin-top: 80px;
+    margin-left: -30px
+
+}
+
+#span_finance{
+    font-size: 13px;
+    color: chartreuse;
+}
+
+#span_sport{
+    font-size: 13px;
+    color: deepskyblue;
+}
+
+#span_tech{
+    font-size: 13px;
+    color: fuchsia;
+}
+
+.p_text a{
+
+    color: grey;
+    font-style: none;
+    text-decoration: none;
+
+} 
+
+/*aside direita Live*/
+
+.Aside_Direta_2_container{
+    display: flex;
+    margin: 0 auto;
+    margin-top: -3251px;
+    margin-left: 1130px;
+    width:300px;
+    height:800px; 
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#top_article{
+
+    margin-top: 5px;
+}
+.tam_fig{
+
+width: 40px;
+}
+
