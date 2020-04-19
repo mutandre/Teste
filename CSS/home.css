@@ -10,6 +10,7 @@ ul {
 .header_Cabecalho {  
     display: block;
     margin-left: 280px;
+    margin-top: 50px;
     width:800px;
     height:150px; 
     position: relative;
@@ -231,16 +232,20 @@ color: black;
 }
 
 /*Formatação de roda pé*/
+.diretion{
+    margin-top: 3000px;
+    margin: 50px 10px;
+}
 
 .footer_roda_pe{
     display: block;
     margin: 0 auto;
     width: 800px;
-    height: 300px;
+    height: 400px;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
 
-
+    
     
 
 }
@@ -255,13 +260,12 @@ color: black;
     width: 100px;
     height: 200px;
     margin-left: 280px;
-    margin-top: -200px;
+    margin-top: -160px;
     position: relative;
     padding: 2px;
    
    
- /* position: relative;
-   margin: 20px;*/
+
     
 }
 .Nave_Home ul li  {
@@ -277,8 +281,6 @@ color: black;
     color:black;
 
 }
-
-
 
 .Nave_About    {
      
@@ -305,10 +307,9 @@ color: black;
     padding: 2px;
     list-style-type: none;
    
- /* position: relative;
-   margin: 20px;*/
     
 }
+
 
 #span_footer {
 
@@ -328,31 +329,23 @@ color: black;
     color: grey;
     
 }
-/*
-
-.Nave_sociais {
+.orga_itens{
+    width: 200px;
+    height: 56px;
+    margin-top:  0px;
    
-
-     position: relative;
-     width: 800px;
-     
- 
- }
-.Nave_sociais ul li  {
-
-  
-    list-style: none;
-    text-decoration: none;
+}
+.orga_itens ul li {
+    
     display: inline-block;
+    list-style: none;
+}
+.tam{
+    margin: 5px;
+    padding: 10px;
+   
 }
 
-.Nave_sociais ul li a {
-
-    text-decoration: none;
-    color:black;
-
-}
-*/
 /* Formatação de aside*/
 .Aside_Esquerda{
 
@@ -375,6 +368,12 @@ color: black;
   
     padding: 15px;
     margin-top: 80px;
+
+}
+.prop_imag ul li figure a {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
 
 }
 
@@ -424,7 +423,8 @@ color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
     padding-left: 10px;
-    padding-top: -5px;
+    margin-top: -50px;
+  
 
 }
 
@@ -501,12 +501,29 @@ font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 
 }
-#top_article{
+.top_article{
 
-    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+      margin-top: 5px;
+   
+
 }
 .tam_fig{
 
-width: 40px;
+margin: 5px;
 }
 
+.top_article ul li  {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+.top_article ul li a {
+
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+}
